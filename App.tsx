@@ -1,20 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// import EsState from './livecode/01-useState/App'
+// import EsFlatlist from './livecode/02-flatlist/App'
+import EsEdgeCaseEState from './livecode/03-edge_case_&_state/App'
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <EsState />
+    // <EsFlatlist />
+    <EsEdgeCaseEState />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
